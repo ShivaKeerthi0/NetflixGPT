@@ -1,9 +1,9 @@
-import './App.css';
+import Login from "./components/Login";
 
 function App() {
   return (
-    <div className="p-2 m-2 bg-grey hover:bg-black text-lg font-bold hover:text-white rounded shadow-md">
-      <p>This is Netflix GPT App!!!</p>
+    <div>
+      <Login/>
     </div>
   );
 }
