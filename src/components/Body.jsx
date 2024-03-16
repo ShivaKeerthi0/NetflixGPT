@@ -1,23 +1,11 @@
 import React from 'react'
-import {createRouter} from 'react-router-dom';
-import { RouterProvider } from 'react-router-dom';
+import Browse from './Browse';
+import Login from './Login';
 
 function Body() {
-
-  const appRouter = createRouter([
-    { 
-      path: '/',
-      element : <Login/>
-    },
-    {
-      path : '/browse',
-      element : <Browse/>
-    }
-  ])
+  
   return (
-   <RouterProvider routes={appRouter}>
-    
-   </RouterProvider>
+   <div></div>
   )
 }
 
